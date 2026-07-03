@@ -1,4 +1,10 @@
-export default function Header({ onStatsClick, onHelpClick }) {
+const TABS = [
+  { id: 'woertchen', label: 'Wörtchen' },
+  { id: 'anagramm', label: 'Anagramm' },
+  { id: 'lueckentext', label: 'Lückentext' },
+];
+
+export default function Header({ activeGame, onGameChange, onStatsClick, onHelpClick }) {
   return (
     <header className="bg-cream border-b border-[#C8C4B8]">
       <div className="flex items-center justify-between px-4 py-3 max-w-lg mx-auto w-full">
@@ -19,7 +25,7 @@ export default function Header({ onStatsClick, onHelpClick }) {
             WÖRTCHEN
           </h1>
           <p className="text-[#888] text-[10px] tracking-widest uppercase mt-0.5">
-            Deutsches Tages-Worträtsel
+            Deutsches Lernspiel
           </p>
         </div>
 
@@ -37,10 +43,27 @@ export default function Header({ onStatsClick, onHelpClick }) {
       </div>
 
       {/* German flag stripe */}
-      <div className="flex h-[5px]">
+      <div className="flex h-[4px]">
         <div className="flex-1 bg-[#1a1a1a]" />
         <div className="flex-1 bg-[#CC0000]" />
         <div className="flex-1 bg-[#FFCE00]" />
+      </div>
+
+      {/* Game tabs */}
+      <div className="flex max-w-lg mx-auto w-full border-t border-[#E8E4DC]">
+        {TABS.map(tab => (
+          <button
+            key={tab.id}
+            onClick={() => onGameChange(tab.id)}
+            className={`flex-1 py-2.5 text-xs sm:text-sm font-semibold tracking-wide transition-colors border-b-2 ${
+              activeGame === tab.id
+                ? 'border-[#1a1a1a] text-[#1a1a1a]'
+                : 'border-transparent text-[#999] hover:text-[#555]'
+            }`}
+          >
+            {tab.label}
+          </button>
+        ))}
       </div>
     </header>
   );

@@ -1,8 +1,14 @@
 import { useState, useEffect, useCallback } from 'react';
 import words from '../data/words.json';
+import validWords from '../data/validWords.json';
 import { getTodaysWord } from '../utils/wordSelector';
 import { evaluateGuess, buildKeyboardColors } from '../utils/tileState';
 import { saveResult, loadTodayState, saveTodayState } from '../utils/storage';
+
+const VALID_SET = new Set([
+  ...validWords.map(w => w.toUpperCase()),
+  ...words.map(w => w.word.toUpperCase()),
+]);
 
 const WORD_LENGTH = 5;
 const MAX_GUESSES = 6;
@@ -43,6 +49,13 @@ export function useGame() {
       setShaking(true);
       setTimeout(() => setShaking(false), 400);
       showMessage('Wort muss 5 Buchstaben haben!');
+      return;
+    }
+
+    if (!VALID_SET.has(currentGuess.toUpperCase())) {
+      setShaking(true);
+      setTimeout(() => setShaking(false), 400);
+      showMessage('Kein deutsches Wort!');
       return;
     }
 

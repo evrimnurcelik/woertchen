@@ -1,0 +1,322 @@
+[
+  {
+    "sentence": "Ich ___ jeden Morgen Kaffee.",
+    "answer": "trinke",
+    "level": "A1",
+    "translation": "I ___ coffee every morning.",
+    "hints": ["verb — 1st person singular", "tr___e"],
+    "answer_translation": "drink"
+  },
+  {
+    "sentence": "Das Buch ___ auf dem Tisch.",
+    "answer": "liegt",
+    "level": "A1",
+    "translation": "The book ___ on the table.",
+    "hints": ["verb — position", "li___"],
+    "answer_translation": "lies / is lying"
+  },
+  {
+    "sentence": "Sie ___ sehr gut Deutsch.",
+    "answer": "spricht",
+    "level": "A1",
+    "translation": "She ___ German very well.",
+    "hints": ["verb — 3rd person singular", "spr___t"],
+    "answer_translation": "speaks"
+  },
+  {
+    "sentence": "Wir ___ morgen nach Berlin.",
+    "answer": "fahren",
+    "level": "A1",
+    "translation": "We ___ to Berlin tomorrow.",
+    "hints": ["verb — travel", "fa___n"],
+    "answer_translation": "travel / go"
+  },
+  {
+    "sentence": "Das Wetter ist heute sehr ___.",
+    "answer": "schön",
+    "level": "A1",
+    "translation": "The weather is very ___ today.",
+    "hints": ["adjective — positive quality", "sch___"],
+    "answer_translation": "nice / beautiful"
+  },
+  {
+    "sentence": "Ich ___ Hunger.",
+    "answer": "habe",
+    "level": "A1",
+    "translation": "I ___ hungry. (lit: I ___ hunger)",
+    "hints": ["verb — 1st person singular, 'to have'", "ha___"],
+    "answer_translation": "have"
+  },
+  {
+    "sentence": "Der Zug ___ um acht Uhr ab.",
+    "answer": "fährt",
+    "level": "A2",
+    "translation": "The train ___ at eight o'clock.",
+    "hints": ["separable verb — 3rd person singular", "f___t"],
+    "answer_translation": "departs"
+  },
+  {
+    "sentence": "Kannst du mir bitte ___?",
+    "answer": "helfen",
+    "level": "A1",
+    "translation": "Can you please ___ me?",
+    "hints": ["verb — infinitive", "he___n"],
+    "answer_translation": "help"
+  },
+  {
+    "sentence": "Er hat seine Schlüssel ___.",
+    "answer": "vergessen",
+    "level": "A2",
+    "translation": "He has ___ his keys.",
+    "hints": ["past participle — mental lapse", "ver___en"],
+    "answer_translation": "forgotten"
+  },
+  {
+    "sentence": "Das Kind ___ gerne im Garten.",
+    "answer": "spielt",
+    "level": "A1",
+    "translation": "The child ___ happily in the garden.",
+    "hints": ["verb — 3rd person singular", "spi___t"],
+    "answer_translation": "plays"
+  },
+  {
+    "sentence": "Sie ist sehr ___, weil sie krank ist.",
+    "answer": "müde",
+    "level": "A2",
+    "translation": "She is very ___ because she is sick.",
+    "hints": ["adjective — how you feel when you need sleep", "m___e"],
+    "answer_translation": "tired"
+  },
+  {
+    "sentence": "Wir ___ seit drei Jahren in Hamburg.",
+    "answer": "wohnen",
+    "level": "A2",
+    "translation": "We ___ in Hamburg for three years.",
+    "hints": ["verb — where you live", "wo___n"],
+    "answer_translation": "live"
+  },
+  {
+    "sentence": "Ich ___ gestern sehr spät ins Bett gegangen.",
+    "answer": "bin",
+    "level": "A2",
+    "translation": "I ___ gone to bed very late yesterday.",
+    "hints": ["auxiliary verb — 'sein' conjugated", "b__"],
+    "answer_translation": "am / have (auxiliary)"
+  },
+  {
+    "sentence": "Das Konzert hat mich sehr ___.",
+    "answer": "beeindruckt",
+    "level": "B1",
+    "translation": "The concert ___ me very much.",
+    "hints": ["past participle — strong emotional effect", "be___t"],
+    "answer_translation": "impressed"
+  },
+  {
+    "sentence": "Er ist nicht nur klug, ___ auch fleißig.",
+    "answer": "sondern",
+    "level": "B1",
+    "translation": "He is not only smart, ___ also hardworking.",
+    "hints": ["conjunction — used after 'nicht nur'", "son___n"],
+    "answer_translation": "but also"
+  },
+  {
+    "sentence": "Die Prüfung war ___ als erwartet.",
+    "answer": "schwieriger",
+    "level": "B1",
+    "translation": "The exam was ___ than expected.",
+    "hints": ["comparative adjective — difficulty", "schw___r"],
+    "answer_translation": "harder / more difficult"
+  },
+  {
+    "sentence": "Obwohl es regnete, ___ er spazieren.",
+    "answer": "ging",
+    "level": "B1",
+    "translation": "Although it rained, he ___ for a walk.",
+    "hints": ["past tense verb — movement on foot", "g__"],
+    "answer_translation": "went"
+  },
+  {
+    "sentence": "Sie hat sich vorgenommen, mehr Sport zu ___.",
+    "answer": "treiben",
+    "level": "B1",
+    "translation": "She has resolved to ___ more sport.",
+    "hints": ["verb infinitive — 'Sport ___' is a fixed expression", "tre___n"],
+    "answer_translation": "do (sport)"
+  },
+  {
+    "sentence": "Das Projekt wurde aufgrund von Zeitmangel ___.",
+    "answer": "verschoben",
+    "level": "B2",
+    "translation": "The project was ___ due to lack of time.",
+    "hints": ["past participle — moved to a later date", "ver___en"],
+    "answer_translation": "postponed"
+  },
+  {
+    "sentence": "Trotz des schlechten Wetters ___ die Veranstaltung statt.",
+    "answer": "fand",
+    "level": "B2",
+    "translation": "Despite the bad weather, the event ___ place.",
+    "hints": ["past tense — 'stattfinden' (separable)", "f___"],
+    "answer_translation": "took"
+  },
+  {
+    "sentence": "Es wäre ___, wenn du früher kommen könntest.",
+    "answer": "toll",
+    "level": "B1",
+    "translation": "It would be ___ if you could come earlier.",
+    "hints": ["adjective — positive, colloquial", "t___"],
+    "answer_translation": "great / wonderful"
+  },
+  {
+    "sentence": "Die Verhandlungen erwiesen sich als äußerst ___.",
+    "answer": "zäh",
+    "level": "C1",
+    "translation": "The negotiations proved to be extremely ___.",
+    "hints": ["adjective — slow and difficult to resolve", "z__"],
+    "answer_translation": "tough / drawn-out"
+  },
+  {
+    "sentence": "Sie argumentierte so ___, dass alle überzeugt waren.",
+    "answer": "überzeugend",
+    "level": "C1",
+    "translation": "She argued so ___ that everyone was convinced.",
+    "hints": ["adverb / adjective — persuasive manner", "über___d"],
+    "answer_translation": "convincingly"
+  },
+  {
+    "sentence": "Der Redner ___ das Publikum mit seinen Worten.",
+    "answer": "fesselte",
+    "level": "C1",
+    "translation": "The speaker ___ the audience with his words.",
+    "hints": ["past tense — to captivate", "fe___te"],
+    "answer_translation": "captivated"
+  },
+  {
+    "sentence": "Ich ___ nicht, ob ich morgen Zeit habe.",
+    "answer": "weiß",
+    "level": "A2",
+    "translation": "I ___ not whether I have time tomorrow.",
+    "hints": ["verb — 1st person singular, 'wissen'", "w___"],
+    "answer_translation": "know"
+  },
+  {
+    "sentence": "Der Hund ___ laut, als der Briefträger kam.",
+    "answer": "bellte",
+    "level": "B1",
+    "translation": "The dog ___ loudly when the postman came.",
+    "hints": ["past tense — what dogs do", "be___e"],
+    "answer_translation": "barked"
+  },
+  {
+    "sentence": "Es ist wichtig, pünktlich zu ___ sein.",
+    "answer": "sein",
+    "level": "A2",
+    "translation": "It is important to ___ punctual.",
+    "hints": ["infinitive — 'to be'", "se__"],
+    "answer_translation": "be"
+  },
+  {
+    "sentence": "Die Sonne ___ heute sehr stark.",
+    "answer": "scheint",
+    "level": "A1",
+    "translation": "The sun ___ very strongly today.",
+    "hints": ["verb — 3rd person singular, light emission", "sche___t"],
+    "answer_translation": "shines"
+  },
+  {
+    "sentence": "Ich habe das Buch in zwei Tagen ___.",
+    "answer": "gelesen",
+    "level": "A2",
+    "translation": "I ___ the book in two days.",
+    "hints": ["past participle of 'lesen'", "ge___n"],
+    "answer_translation": "read"
+  },
+  {
+    "sentence": "Sie ___ sich sehr über das Geschenk.",
+    "answer": "freute",
+    "level": "B1",
+    "translation": "She ___ very happy about the gift.",
+    "hints": ["past tense — reflexive verb, feeling joy", "fre___e"],
+    "answer_translation": "was delighted"
+  },
+  {
+    "sentence": "Er ___ die ganze Nacht für die Prüfung.",
+    "answer": "lernte",
+    "level": "A2",
+    "translation": "He ___ all night for the exam.",
+    "hints": ["past tense — studying", "ler___e"],
+    "answer_translation": "studied"
+  },
+  {
+    "sentence": "Die Kinder ___ sofort eingeschlafen.",
+    "answer": "sind",
+    "level": "A2",
+    "translation": "The children ___ fallen asleep immediately.",
+    "hints": ["auxiliary verb — plural 'sein'", "s___"],
+    "answer_translation": "are / have (auxiliary)"
+  },
+  {
+    "sentence": "Ohne deine Hilfe hätte ich es nicht ___.",
+    "answer": "geschafft",
+    "level": "B2",
+    "translation": "Without your help I wouldn't have ___ it.",
+    "hints": ["past participle — to manage/achieve", "ge___t"],
+    "answer_translation": "managed / done"
+  },
+  {
+    "sentence": "Der Zeuge ___ die Aussage unter Eid.",
+    "answer": "machte",
+    "level": "C1",
+    "translation": "The witness ___ the statement under oath.",
+    "hints": ["past tense — 'eine Aussage machen'", "ma___e"],
+    "answer_translation": "made"
+  },
+  {
+    "sentence": "Ich ___ lieber Tee als Kaffee.",
+    "answer": "trinke",
+    "level": "A1",
+    "translation": "I ___ tea rather than coffee.",
+    "hints": ["verb — 1st person singular, beverage", "tr___e"],
+    "answer_translation": "drink"
+  },
+  {
+    "sentence": "Das war eine sehr ___ Entscheidung.",
+    "answer": "mutige",
+    "level": "B1",
+    "translation": "That was a very ___ decision.",
+    "hints": ["adjective — brave, daring", "mu___e"],
+    "answer_translation": "courageous"
+  },
+  {
+    "sentence": "Er ___ sich für den Fehler bei seiner Kollegin.",
+    "answer": "entschuldigte",
+    "level": "B2",
+    "translation": "He ___ to his colleague for the mistake.",
+    "hints": ["past tense — reflexive, to apologise", "ent___te"],
+    "answer_translation": "apologised"
+  },
+  {
+    "sentence": "Die Nachricht hat mich völlig ___.",
+    "answer": "überrascht",
+    "level": "B1",
+    "translation": "The news completely ___ me.",
+    "hints": ["past participle — unexpected reaction", "über___t"],
+    "answer_translation": "surprised"
+  },
+  {
+    "sentence": "Wir müssen das Problem gemeinsam ___.",
+    "answer": "lösen",
+    "level": "B1",
+    "translation": "We must ___ the problem together.",
+    "hints": ["verb infinitive — to find a solution", "lö___n"],
+    "answer_translation": "solve"
+  },
+  {
+    "sentence": "Die Atmosphäre in der Stadt war ___ aufgeladen.",
+    "answer": "elektrisch",
+    "level": "C2",
+    "translation": "The atmosphere in the city was ___ charged.",
+    "hints": ["adjective — like static energy, metaphorical", "ele___ch"],
+    "answer_translation": "electrically"
+  }
+]

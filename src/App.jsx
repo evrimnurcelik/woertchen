@@ -8,14 +8,13 @@ import WinModal from './components/modals/WinModal';
 import LoseModal from './components/modals/LoseModal';
 import StatsModal from './components/modals/StatsModal';
 import HelpModal from './components/modals/HelpModal';
+import Anagramm from './games/Anagramm';
+import Lueckentext from './games/Lueckentext';
 
-export default function App() {
+function WoertchenGame({ onShowStats, onShowHelp }) {
   const game = useGame();
-  const [showStats, setShowStats] = useState(false);
-  const [showHelp, setShowHelp] = useState(false);
   const [showResult, setShowResult] = useState(false);
 
-  // Show result modal after a short delay when game ends
   useEffect(() => {
     if (game.gameStatus === 'won' || game.gameStatus === 'lost') {
       const delay = game.gameStatus === 'won' ? 1800 : 2000;
@@ -24,26 +23,14 @@ export default function App() {
     }
   }, [game.gameStatus]);
 
-  // Show help on first visit
-  useEffect(() => {
-    const seen = localStorage.getItem('woertchen_seen_help');
-    if (!seen) {
-      setShowHelp(true);
-      localStorage.setItem('woertchen_seen_help', '1');
-    }
-  }, []);
-
   return (
-    <div className="flex flex-col min-h-dvh bg-[#F5F2E8]">
-      <Header onStatsClick={() => setShowStats(true)} onHelpClick={() => setShowHelp(true)} />
-
+    <>
       <main className="flex flex-col flex-1 items-center max-w-lg mx-auto w-full">
         {game.message && (
-          <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-[#1a1a1a] text-white text-sm font-bold px-4 py-2 rounded-lg shadow-lg">
+          <div className="fixed top-28 left-1/2 -translate-x-1/2 z-40 bg-[#1a1a1a] text-white text-sm font-bold px-4 py-2 rounded-lg shadow-lg">
             {game.message}
           </div>
         )}
-
         <Board
           guesses={game.guesses}
           tileStates={game.tileStates}
@@ -52,13 +39,11 @@ export default function App() {
           wordLength={game.wordLength}
           shaking={game.shaking}
         />
-
         <HintPanel
           wordData={game.wordData}
           hintsUnlocked={game.hintsUnlocked}
           guessCount={game.guesses.length}
         />
-
         <div className="mt-auto w-full">
           <Keyboard
             onLetter={game.addLetter}
@@ -80,17 +65,42 @@ export default function App() {
         />
       )}
       {showResult && game.gameStatus === 'lost' && (
-        <LoseModal
-          wordData={game.wordData}
-          onClose={() => setShowResult(false)}
-        />
+        <LoseModal wordData={game.wordData} onClose={() => setShowResult(false)} />
       )}
-      {showStats && (
-        <StatsModal onClose={() => setShowStats(false)} />
+    </>
+  );
+}
+
+export default function App() {
+  const [activeGame, setActiveGame] = useState('woertchen');
+  const [showStats, setShowStats] = useState(false);
+  const [showHelp, setShowHelp] = useState(false);
+
+  useEffect(() => {
+    const seen = localStorage.getItem('woertchen_seen_help');
+    if (!seen) {
+      setShowHelp(true);
+      localStorage.setItem('woertchen_seen_help', '1');
+    }
+  }, []);
+
+  return (
+    <div className="flex flex-col min-h-dvh bg-[#F5F2E8]">
+      <Header
+        activeGame={activeGame}
+        onGameChange={setActiveGame}
+        onStatsClick={() => setShowStats(true)}
+        onHelpClick={() => setShowHelp(true)}
+      />
+
+      {activeGame === 'woertchen' && (
+        <WoertchenGame onShowStats={() => setShowStats(true)} onShowHelp={() => setShowHelp(true)} />
       )}
-      {showHelp && (
-        <HelpModal onClose={() => setShowHelp(false)} />
-      )}
+      {activeGame === 'anagramm' && <Anagramm />}
+      {activeGame === 'lueckentext' && <Lueckentext />}
+
+      {showStats && <StatsModal onClose={() => setShowStats(false)} />}
+      {showHelp && <HelpModal onClose={() => setShowHelp(false)} />}
     </div>
   );
 }
