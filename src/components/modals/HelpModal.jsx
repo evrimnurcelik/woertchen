@@ -18,7 +18,7 @@ export default function HelpModal({ onClose }) {
           <p className="text-[#888] text-xs uppercase tracking-wider">Farben der Buchstaben</p>
 
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-[#FFCE00] border-2 border-[#FFCE00] flex items-center justify-center text-[#1a1a1a] font-bold text-lg rounded">W</div>
+            <div className="w-10 h-10 bg-[#4a7c59] border-2 border-[#4a7c59] flex items-center justify-center text-white font-bold text-lg rounded">W</div>
             <p className="text-[#555] text-sm">Richtiger Buchstabe, richtige Position</p>
           </div>
           <div className="flex items-center gap-3">

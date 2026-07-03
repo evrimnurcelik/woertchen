@@ -1,7 +1,7 @@
 import { useEffect, useState } from 'react';
 
 const stateClasses = {
-  correct: 'bg-[#FFCE00] border-[#FFCE00] text-[#1a1a1a]',
+  correct: 'bg-[#4a7c59] border-[#4a7c59] text-white',
   present: 'bg-[#CC0000] border-[#CC0000] text-white',
   absent: 'bg-[#4a4a4a] border-[#4a4a4a] text-white',
   active: 'bg-white border-[#1a1a1a] text-[#1a1a1a]',

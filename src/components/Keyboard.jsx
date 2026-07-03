@@ -5,7 +5,7 @@ const ROWS = [
 ];
 
 const keyColorClass = {
-  correct: 'bg-[#FFCE00] text-[#1a1a1a] border-[#FFCE00]',
+  correct: 'bg-[#4a7c59] text-white border-[#4a7c59]',
   present: 'bg-[#CC0000] text-white border-[#CC0000]',
   absent: 'bg-[#4a4a4a] text-white border-[#4a4a4a]',
 };
