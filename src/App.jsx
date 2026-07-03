@@ -34,12 +34,12 @@ export default function App() {
   }, []);
 
   return (
-    <div className="flex flex-col min-h-dvh bg-[#121213]">
+    <div className="flex flex-col min-h-dvh bg-[#F5F2E8]">
       <Header onStatsClick={() => setShowStats(true)} onHelpClick={() => setShowHelp(true)} />
 
       <main className="flex flex-col flex-1 items-center max-w-lg mx-auto w-full">
         {game.message && (
-          <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-white text-black text-sm font-bold px-4 py-2 rounded-lg shadow-lg">
+          <div className="fixed top-16 left-1/2 -translate-x-1/2 z-40 bg-[#1a1a1a] text-white text-sm font-bold px-4 py-2 rounded-lg shadow-lg">
             {game.message}
           </div>
         )}

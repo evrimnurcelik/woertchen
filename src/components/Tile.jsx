@@ -1,11 +1,11 @@
 import { useEffect, useState } from 'react';
 
 const stateClasses = {
-  correct: 'bg-correct border-correct text-white',
-  present: 'bg-present border-present text-white',
-  absent: 'bg-absent border-absent text-white',
-  active: 'bg-transparent border-[#565758] text-white',
-  empty: 'bg-transparent border-[#3a3a3c] text-white',
+  correct: 'bg-[#FFCE00] border-[#FFCE00] text-[#1a1a1a]',
+  present: 'bg-[#CC0000] border-[#CC0000] text-white',
+  absent: 'bg-[#4a4a4a] border-[#4a4a4a] text-white',
+  active: 'bg-white border-[#1a1a1a] text-[#1a1a1a]',
+  empty: 'bg-white border-[#C8C4B8] text-[#1a1a1a]',
 };
 
 export default function Tile({ letter, state, delay = 0 }) {

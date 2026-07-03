@@ -4,12 +4,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        correct: '#538d4e',
-        present: '#b59f3b',
-        absent: '#3a3a3c',
-        'tile-border': '#565758',
-        'tile-empty': '#121213',
-        'key-bg': '#818384',
+        correct: '#FFCE00',
+        present: '#CC0000',
+        absent: '#4a4a4a',
+        'de-black': '#1a1a1a',
+        'de-red': '#CC0000',
+        'de-gold': '#FFCE00',
+        'cream': '#F5F2E8',
+        'tile-border': '#C8C4B8',
+        'key-bg': '#D0CCC0',
       },
       animation: {
         flip: 'flip 0.5s ease-in-out',
