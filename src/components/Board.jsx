@@ -8,7 +8,7 @@ export default function Board({ guesses, tileStates, currentGuess, maxGuesses, w
       // Submitted guess
       const guess = guesses[i].toUpperCase().padEnd(wordLength, '');
       rows.push(
-        <div key={i} className="flex gap-1.5">
+        <div key={i} className="flex gap-1">
           {[...guess].map((letter, j) => (
             <Tile
               key={j}
@@ -21,13 +21,12 @@ export default function Board({ guesses, tileStates, currentGuess, maxGuesses, w
       );
     } else if (i === guesses.length) {
       // Current row
-      const letters = currentGuess.toUpperCase().padEnd(wordLength, '');
       rows.push(
-        <div key={i} className={`flex gap-1.5 ${shaking ? 'tile-shake' : ''}`}>
-          {[...letters].map((letter, j) => (
+        <div key={i} className={`flex gap-1 ${shaking ? 'tile-shake' : ''}`}>
+          {Array.from({ length: wordLength }, (_, j) => (
             <Tile
               key={j}
-              letter={j < currentGuess.length ? letter : ''}
+              letter={j < currentGuess.length ? currentGuess[j].toUpperCase() : ''}
               state={j < currentGuess.length ? 'active' : 'empty'}
             />
           ))}
@@ -36,7 +35,7 @@ export default function Board({ guesses, tileStates, currentGuess, maxGuesses, w
     } else {
       // Empty row
       rows.push(
-        <div key={i} className="flex gap-1.5">
+        <div key={i} className="flex gap-1">
           {Array.from({ length: wordLength }).map((_, j) => (
             <Tile key={j} letter="" state="empty" />
           ))}
@@ -46,7 +45,7 @@ export default function Board({ guesses, tileStates, currentGuess, maxGuesses, w
   }
 
   return (
-    <div className="flex flex-col gap-1.5 items-center py-4">
+    <div className="flex flex-col gap-1 items-center py-2">
       {rows}
     </div>
   );

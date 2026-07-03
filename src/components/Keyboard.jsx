@@ -29,8 +29,8 @@ export default function Keyboard({ onLetter, onDelete, onEnter, keyboardColors }
                   else onLetter(key);
                 }}
                 className={`
-                  ${isWide ? 'px-2 text-xs min-w-[44px]' : 'w-9'}
-                  h-14 rounded font-bold uppercase border
+                  ${isWide ? 'px-1.5 text-xs min-w-[40px]' : 'w-8 sm:w-9'}
+                  h-12 sm:h-14 rounded font-bold uppercase border
                   flex items-center justify-center
                   active:brightness-75 transition-colors
                   select-none touch-manipulation
