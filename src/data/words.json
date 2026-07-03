@@ -1,0 +1,632 @@
+[
+  {
+    "word": "LERNT",
+    "article": null,
+    "translation": "learns / is learning",
+    "level": "A1",
+    "pos": "verb",
+    "hints": [
+      "verb",
+      "action verb (mental activity)",
+      "to ___",
+      "to le___"
+    ],
+    "example": "Sie lernt jeden Tag Deutsch.",
+    "example_en": "She learns German every day."
+  },
+  {
+    "word": "WOLKE",
+    "article": "die",
+    "translation": "cloud",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine noun — weather",
+      "___ (in the sky)",
+      "cl___"
+    ],
+    "example": "Die Wolke ist sehr groß.",
+    "example_en": "The cloud is very big."
+  },
+  {
+    "word": "BITTE",
+    "article": null,
+    "translation": "please / you're welcome",
+    "level": "A1",
+    "pos": "adverb",
+    "hints": [
+      "common word / adverb",
+      "used in requests or replies",
+      "pl___e",
+      "please / you're welcome"
+    ],
+    "example": "Bitte sprechen Sie langsamer.",
+    "example_en": "Please speak more slowly."
+  },
+  {
+    "word": "STADT",
+    "article": "die",
+    "translation": "city / town",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine noun — place",
+      "c___",
+      "city / town"
+    ],
+    "example": "Berlin ist eine große Stadt.",
+    "example_en": "Berlin is a big city."
+  },
+  {
+    "word": "Brief",
+    "article": "der",
+    "translation": "letter (mail)",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine noun — communication",
+      "le___r",
+      "letter (mail)"
+    ],
+    "example": "Ich schreibe einen Brief.",
+    "example_en": "I am writing a letter."
+  },
+  {
+    "word": "ABEND",
+    "article": "der",
+    "translation": "evening",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine noun — time of day",
+      "e___ning",
+      "evening"
+    ],
+    "example": "Guten Abend!",
+    "example_en": "Good evening!"
+  },
+  {
+    "word": "BUCHE",
+    "article": "die",
+    "translation": "beech (tree)",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine noun — nature",
+      "a type of ___",
+      "beech tree"
+    ],
+    "example": "Die Buche steht im Wald.",
+    "example_en": "The beech tree stands in the forest."
+  },
+  {
+    "word": "TISCH",
+    "article": "der",
+    "translation": "table",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine noun — furniture",
+      "ta___",
+      "table"
+    ],
+    "example": "Das Buch liegt auf dem Tisch.",
+    "example_en": "The book is on the table."
+  },
+  {
+    "word": "BLUME",
+    "article": "die",
+    "translation": "flower",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine noun — nature",
+      "flo___",
+      "flower"
+    ],
+    "example": "Die Blume ist sehr schön.",
+    "example_en": "The flower is very beautiful."
+  },
+  {
+    "word": "STURM",
+    "article": "der",
+    "translation": "storm",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine noun — weather",
+      "st___",
+      "storm"
+    ],
+    "example": "Der Sturm war sehr stark.",
+    "example_en": "The storm was very strong."
+  },
+  {
+    "word": "GLAUB",
+    "article": null,
+    "translation": "believe / think (I believe)",
+    "level": "B1",
+    "pos": "verb",
+    "hints": [
+      "verb (1st person singular)",
+      "expressing opinion or belief",
+      "I ___ieve",
+      "I believe / I think"
+    ],
+    "example": "Ich glaub, das stimmt nicht.",
+    "example_en": "I think that's not right."
+  },
+  {
+    "word": "FREMD",
+    "article": null,
+    "translation": "foreign / strange / unfamiliar",
+    "level": "B1",
+    "pos": "adjective",
+    "hints": [
+      "adjective",
+      "describes something unknown or from elsewhere",
+      "str___ge / for___gn",
+      "foreign / unfamiliar"
+    ],
+    "example": "Das ist mir fremd.",
+    "example_en": "That is unfamiliar to me."
+  },
+  {
+    "word": "KRANK",
+    "article": null,
+    "translation": "sick / ill",
+    "level": "A2",
+    "pos": "adjective",
+    "hints": [
+      "adjective",
+      "describes a health condition",
+      "s___k",
+      "sick / ill"
+    ],
+    "example": "Ich bin heute krank.",
+    "example_en": "I am sick today."
+  },
+  {
+    "word": "TRÄUM",
+    "article": null,
+    "translation": "dream (I dream)",
+    "level": "B1",
+    "pos": "verb",
+    "hints": [
+      "verb (1st person singular)",
+      "activity during sleep or daydreaming",
+      "I dr___",
+      "I dream"
+    ],
+    "example": "Ich träum oft von zu Hause.",
+    "example_en": "I often dream of home."
+  },
+  {
+    "word": "BRÜCK",
+    "article": null,
+    "translation": "bridge (stem form)",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun (stem)",
+      "structure — connects two places",
+      "br___ge",
+      "bridge"
+    ],
+    "example": "Die Brücke über den Fluss ist alt.",
+    "example_en": "The bridge over the river is old."
+  },
+  {
+    "word": "FEUER",
+    "article": "das",
+    "translation": "fire",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "neuter noun — element",
+      "f___e",
+      "fire"
+    ],
+    "example": "Das Feuer brennt hell.",
+    "example_en": "The fire burns brightly."
+  },
+  {
+    "word": "GRENZ",
+    "article": null,
+    "translation": "border / boundary (stem)",
+    "level": "B2",
+    "pos": "noun",
+    "hints": [
+      "noun (stem)",
+      "between two countries or areas",
+      "bor___r",
+      "border / boundary"
+    ],
+    "example": "Die Grenze zwischen den Ländern ist offen.",
+    "example_en": "The border between the countries is open."
+  },
+  {
+    "word": "WÄHLT",
+    "article": null,
+    "translation": "chooses / elects (he/she)",
+    "level": "B1",
+    "pos": "verb",
+    "hints": [
+      "verb (3rd person singular)",
+      "choosing or voting for something",
+      "ch___ses / el___ts",
+      "chooses / elects"
+    ],
+    "example": "Sie wählt die beste Option.",
+    "example_en": "She chooses the best option."
+  },
+  {
+    "word": "RUHEN",
+    "article": null,
+    "translation": "to rest / to repose",
+    "level": "B1",
+    "pos": "verb",
+    "hints": [
+      "verb (infinitive)",
+      "taking a break, being still",
+      "to r___",
+      "to rest"
+    ],
+    "example": "Die Toten ruhen in Frieden.",
+    "example_en": "The dead rest in peace."
+  },
+  {
+    "word": "ZWIEB",
+    "article": null,
+    "translation": "onion (stem)",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun (stem)",
+      "feminine — vegetable",
+      "on___n",
+      "onion"
+    ],
+    "example": "Die Zwiebel macht mich weinen.",
+    "example_en": "The onion makes me cry."
+  },
+  {
+    "word": "STROM",
+    "article": "der",
+    "translation": "electricity / current / large river",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine — energy or water flow",
+      "el___ricity / curr___t",
+      "electricity / current / river"
+    ],
+    "example": "Der Strom fällt aus.",
+    "example_en": "The electricity goes out."
+  },
+  {
+    "word": "SCHAF",
+    "article": "das",
+    "translation": "sheep",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "neuter noun — farm animal",
+      "sh___p",
+      "sheep"
+    ],
+    "example": "Das Schaf grast auf der Wiese.",
+    "example_en": "The sheep grazes in the meadow."
+  },
+  {
+    "word": "DÜNNE",
+    "article": null,
+    "translation": "thin / slim",
+    "level": "B1",
+    "pos": "adjective",
+    "hints": [
+      "adjective",
+      "opposite of thick or fat",
+      "th___",
+      "thin / slim"
+    ],
+    "example": "Sie trägt eine dünne Jacke.",
+    "example_en": "She wears a thin jacket."
+  },
+  {
+    "word": "PFERD",
+    "article": "das",
+    "translation": "horse",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "neuter noun — animal",
+      "ho___e",
+      "horse"
+    ],
+    "example": "Das Pferd läuft sehr schnell.",
+    "example_en": "The horse runs very fast."
+  },
+  {
+    "word": "KÜSTE",
+    "article": "die",
+    "translation": "coast / coastline",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine — geography",
+      "co___t",
+      "coast"
+    ],
+    "example": "Wir fahren an die Küste.",
+    "example_en": "We are going to the coast."
+  },
+  {
+    "word": "PREIS",
+    "article": "der",
+    "translation": "price / prize / award",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine — commerce or achievement",
+      "pr___e",
+      "price / prize"
+    ],
+    "example": "Was ist der Preis dieses Buches?",
+    "example_en": "What is the price of this book?"
+  },
+  {
+    "word": "SPIEL",
+    "article": "das",
+    "translation": "game / play",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "neuter — entertainment or sport",
+      "ga___",
+      "game / play"
+    ],
+    "example": "Das Spiel hat Spaß gemacht.",
+    "example_en": "The game was fun."
+  },
+  {
+    "word": "KRAFT",
+    "article": "die",
+    "translation": "strength / power / force",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine — physical or abstract power",
+      "str___gth",
+      "strength / power"
+    ],
+    "example": "Sie hat viel Kraft.",
+    "example_en": "She has a lot of strength."
+  },
+  {
+    "word": "GLÜCK",
+    "article": "das",
+    "translation": "luck / happiness",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "neuter — emotion or fortune",
+      "lu_k / hap___ness",
+      "luck / happiness"
+    ],
+    "example": "Viel Glück beim Spiel!",
+    "example_en": "Good luck with the game!"
+  },
+  {
+    "word": "KLEIN",
+    "article": null,
+    "translation": "small / little",
+    "level": "A1",
+    "pos": "adjective",
+    "hints": [
+      "adjective",
+      "size descriptor",
+      "sm___l",
+      "small / little"
+    ],
+    "example": "Das ist ein kleines Kind.",
+    "example_en": "That is a small child."
+  },
+  {
+    "word": "SCHÖN",
+    "article": null,
+    "translation": "beautiful / nice",
+    "level": "A1",
+    "pos": "adjective",
+    "hints": [
+      "adjective",
+      "describes appearance or quality",
+      "bea___iful",
+      "beautiful / nice"
+    ],
+    "example": "Das Wetter ist heute schön.",
+    "example_en": "The weather is nice today."
+  },
+  {
+    "word": "GRÜNE",
+    "article": null,
+    "translation": "green (inflected)",
+    "level": "A1",
+    "pos": "adjective",
+    "hints": [
+      "adjective (inflected form)",
+      "color — nature",
+      "gr___n",
+      "green"
+    ],
+    "example": "Das grüne Gras wächst schnell.",
+    "example_en": "The green grass grows fast."
+  },
+  {
+    "word": "FAHRT",
+    "article": "die",
+    "translation": "journey / trip / ride",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine — travel",
+      "tri_",
+      "trip / journey"
+    ],
+    "example": "Die Fahrt dauert zwei Stunden.",
+    "example_en": "The journey takes two hours."
+  },
+  {
+    "word": "WOCHE",
+    "article": "die",
+    "translation": "week",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine — unit of time",
+      "we___",
+      "week"
+    ],
+    "example": "Ich arbeite fünf Tage pro Woche.",
+    "example_en": "I work five days a week."
+  },
+  {
+    "word": "ESSEN",
+    "article": "das",
+    "translation": "food / meal / to eat",
+    "level": "A1",
+    "pos": "noun/verb",
+    "hints": [
+      "noun or verb",
+      "related to food and eating",
+      "fo_d / to e__",
+      "food / to eat"
+    ],
+    "example": "Das Essen schmeckt gut.",
+    "example_en": "The food tastes good."
+  },
+  {
+    "word": "KÄLTE",
+    "article": "die",
+    "translation": "cold / coldness",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "feminine — temperature",
+      "co_d",
+      "cold / coldness"
+    ],
+    "example": "Die Kälte im Winter ist extrem.",
+    "example_en": "The cold in winter is extreme."
+  },
+  {
+    "word": "LÖSEN",
+    "article": null,
+    "translation": "to solve / to loosen / to release",
+    "level": "B1",
+    "pos": "verb",
+    "hints": [
+      "verb (infinitive)",
+      "to find a solution or undo something",
+      "to so_ve / to lo__en",
+      "to solve / to loosen"
+    ],
+    "example": "Wir müssen das Problem lösen.",
+    "example_en": "We need to solve the problem."
+  },
+  {
+    "word": "BUSCH",
+    "article": "der",
+    "translation": "bush / shrub",
+    "level": "B1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine — plant",
+      "bu__",
+      "bush / shrub"
+    ],
+    "example": "Der Busch blüht im Frühling.",
+    "example_en": "The bush blossoms in spring."
+  },
+  {
+    "word": "STARK",
+    "article": null,
+    "translation": "strong / powerful",
+    "level": "A2",
+    "pos": "adjective",
+    "hints": [
+      "adjective",
+      "physical or abstract strength",
+      "str___g",
+      "strong / powerful"
+    ],
+    "example": "Er ist sehr stark.",
+    "example_en": "He is very strong."
+  },
+  {
+    "word": "ZEIGT",
+    "article": null,
+    "translation": "shows / points (he/she)",
+    "level": "A2",
+    "pos": "verb",
+    "hints": [
+      "verb (3rd person singular)",
+      "making something visible",
+      "sho__",
+      "shows / points"
+    ],
+    "example": "Er zeigt uns den Weg.",
+    "example_en": "He shows us the way."
+  },
+  {
+    "word": "VOGEL",
+    "article": "der",
+    "translation": "bird",
+    "level": "A1",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine — animal with wings",
+      "bi__",
+      "bird"
+    ],
+    "example": "Der Vogel singt am Morgen.",
+    "example_en": "The bird sings in the morning."
+  },
+  {
+    "word": "FLUSS",
+    "article": "der",
+    "translation": "river",
+    "level": "A2",
+    "pos": "noun",
+    "hints": [
+      "noun",
+      "masculine — body of water",
+      "ri__r",
+      "river"
+    ],
+    "example": "Der Fluss ist sehr lang.",
+    "example_en": "The river is very long."
+  }
+]
